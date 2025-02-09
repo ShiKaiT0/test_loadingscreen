@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stellar - CloneWars RP</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="loading-screen">
+        <div id="background-carousel" class="background-carousel"></div>
+        <div class="gradient-overlay"></div>
+
+        <div class="title">
+            <img src="images/republic-logo.png" alt="République" class="logo">
+            <div>
+                <h2>Bienvenue sur</h2>
+                <h1>Stellar - CloneWars RP</h1>
+            </div>
+            <img src="images/csi-logo.png" alt="CSI" class="logo">
+        </div>
+
+        <div id="server-description" class="server-description"></div>
+
+        <div id="server-info" class="server-info">
+            <div><i class="fas fa-users"></i> <span id="player-count">0</span> joueurs en ligne</div>
+            <div><i class="fas fa-map"></i> Carte actuelle : <span id="current-map">Chargement...</span></div>
+        </div>
+
+        <div class="loading-container">
+            <div class="player-info">
+                <img id="player-avatar" src="images/placeholder-avatar.png" alt="Avatar du joueur">
+                <span id="player-name">Chargement...</span>
+            </div>
+            <p id="file-info" class="file-info">Téléchargement : Aucun fichier</p>
+            <div class="progress-bar">
+                <div id="progress-fill" class="progress-fill"></div>
+                <span id="progress-text" class="progress-text">0%</span>
+            </div>
+            <p id="announcement" class="announcement"></p>
+            <p id="time-based-message" class="time-based-message"></p>
+        </div>
+
+        <div class="social-links">
+            <p>Rejoignez-nous sur les réseaux :</p>
+            <div>
+                <a href="https://discord.gg/votreserveur" target="_blank" rel="noopener noreferrer"><i class="fab fa-discord"></i></a>
+                <a href="https://facebook.com/votreserveur" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook"></i></a>
+                <a href="https://twitter.com/votreserveur" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+                <a href="https://youtube.com/votreserveur" target="_blank" rel="noopener noreferrer"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+
+        <button id="music-toggle" class="music-toggle">🔇</button>
+    </div>
+
+    <audio id="background-music" loop>
+        <source src="audio/clone-wars-theme.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
