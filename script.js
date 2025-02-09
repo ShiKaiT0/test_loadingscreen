@@ -27,14 +27,10 @@ const config = {
   carouselInterval: 7000,
   announcementInterval: 5000,
   backgroundImages: [
-    "images/fertycomm.jpg",
-    "images/501stv1.png",
-    "images/501stv2.png",
-    "images/ctblanc.png",
-    "images/fordo.png",
-    "images/21.png",
-    "images/41.png",
-    "images/shock.png",
+    "images/tmp_wallpaper1.jpg",
+    "images/tmp_wallpaper2.jpg",
+    "images/tmp_wallpaper3.png",
+    "images/tmp_wallpaper4.jpg",
   ],
   timeBasedMessages: {
     early: "Vous êtes bien matinal, soldat. La guerre n'attend pas !",
